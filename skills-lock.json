@@ -31,10 +31,25 @@
       "sourceType": "github",
       "computedHash": "f4f58145ec9b1f152123d26e47843ad81b9439f42dbb7c82b029ac613bed7814"
     },
+    "portfolio-watcher": {
+      "source": "sundial-org/awesome-openclaw-skills",
+      "sourceType": "github",
+      "computedHash": "7f8eec5d8b910bc77ff5c668e562880349f35b9c950339a8d99008feffb34589"
+    },
     "quiz-funnels": {
       "source": "officexapp/quiz-funnels",
       "sourceType": "github",
       "computedHash": "8a907ac49b09139f555057f77a0425196f3be5c081e7a38f901f09a92f2977ec"
+    },
+    "tracking-crypto-portfolio": {
+      "source": "aaaaqwq/agi-super-skills",
+      "sourceType": "github",
+      "computedHash": "4d58d912dc0e0200b91642314d4f5d25297c4030dc681fe72c1067258180b0dc"
+    },
+    "tracking-crypto-prices": {
+      "source": "aaaaqwq/claude-code-skills",
+      "sourceType": "github",
+      "computedHash": "8e971dbbd9ae1fe734417d5445f6ab2a83d2ee015fb29ff7acf74798b94a8079"
     },
     "using-superpowers": {
       "source": "obra/superpowers",

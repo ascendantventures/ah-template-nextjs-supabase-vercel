@@ -10,6 +10,7 @@ export async function middleware(request: NextRequest) {
     pathname.startsWith('/api/page-view') ||
     pathname.startsWith('/api/link-click') ||
     pathname.startsWith('/api/auth') ||
+    pathname.startsWith('/api/subscribe') ||
     pathname.startsWith('/auth/') ||
     pathname === '/';
 

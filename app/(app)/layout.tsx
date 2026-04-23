@@ -1,17 +1,8 @@
-import { redirect } from 'next/navigation';
-import { createClient } from '@/lib/supabase/server';
 import { LiveTicker } from '@/components/ticker/LiveTicker';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { TopBar } from '@/components/layout/TopBar';
 
-export default async function AppLayout({ children }: { children: React.ReactNode }) {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
-
-  if (!user) redirect('/login');
-
+export default function AppLayout({ children }: { children: React.ReactNode }) {
   return (
     <div style={{ minHeight: '100vh', background: '#020617' }}>
       {/* Ticker at very top */}
@@ -23,7 +14,7 @@ export default async function AppLayout({ children }: { children: React.ReactNod
       <Sidebar />
 
       {/* TopBar */}
-      <TopBar email={user.email} />
+      <TopBar />
 
       {/* Main content */}
       <main
